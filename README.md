@@ -48,7 +48,7 @@ Street B:
 A simple **counter (`timer`)** is used to create the delay for the yellow lights.
 
 * The counter runs only in **S1** and **S3**
-* It counts **0 → 4** (total 5 clock cycles)
+* It counts **0 → 5** (total 5 clock cycles)
 * It resets when leaving the yellow states
 
 ## Files
