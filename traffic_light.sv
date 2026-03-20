@@ -39,9 +39,9 @@ end
 always_comb begin
     case(state)
         S0: next_state = (~TAORB) ? S1 : S0;
-        S1: next_state = (timer == 4) ? S2 : S1;
+        S1: next_state = (timer == 5) ? S2 : S1;
         S2: next_state = (TAORB) ? S3 : S2;
-        S3: next_state = (timer == 4) ? S0 : S3;
+        S3: next_state = (timer == 5) ? S0 : S3;
         default: next_state = S0;
     endcase
 end
