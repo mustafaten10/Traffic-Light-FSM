@@ -3,7 +3,7 @@
 This project implements a **Traffic Light Controller** using a **4-state Finite State Machine (FSM)** in SystemVerilog.
 The controller includes a **5 clock cycle delay for the yellow lights**.
 
-This was developed as an assignment for **ELE432 – Advanced Digital Design at Hacettepe University**.
+This was developed for an assignment for **ELE432 – Advanced Digital Design at Hacettepe University**.
 
 ## Inputs
 
